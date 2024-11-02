@@ -8,6 +8,7 @@ public class ContractEmployee extends Employee {
         super(empId, name);
         this.wages = wages;
         this.hours = hours;
+        calculateSalary();
     }
 
     public double getWages() {

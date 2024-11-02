@@ -10,6 +10,7 @@ public class PermanentEmployee extends Employee {
         this.basicPay = basicPay;
         this.hra = hra;
         this.experience = experience;
+        calculateSalary();
     }
 
     public double getBasicPay() {
