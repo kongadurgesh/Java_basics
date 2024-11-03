@@ -16,5 +16,5 @@ public abstract class RRPaymentServices {
         this.balance = balance;
         this.customerID = customerID;
     }
-    
+    public abstract void payBill(double amount);
 }
